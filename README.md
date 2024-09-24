@@ -1,5 +1,4 @@
 # Smart-Attendnce-System
-# Smart Attendance System
 
 ## Project Overview
 The *Smart Attendance System* uses face recognition technology to automate the process of recording attendance. This system captures images, detects faces, and verifies them against a trained dataset to mark attendance. It also includes features like automated email notifications to alert users about attendance updates.
@@ -32,7 +31,7 @@ pip install -r requirements.txt
 
 
 ## How to Run
-1. *Clone the Repository*:
+1. Clone the Repository:
    bash
    git clone https://github.com/yourusername/Smart-Attendance-System.git
    cd Smart-Attendance-System
