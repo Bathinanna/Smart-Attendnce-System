@@ -29,30 +29,42 @@ You can install all dependencies using:
 bash
 pip install -r requirements.txt
 
-
-## How to Run
-1. Clone the Repository:
+## Instructions to Run:
+1. First, download or clone the project:
    bash
    git clone https://github.com/yourusername/Smart-Attendance-System.git
    cd Smart-Attendance-System
    
-
-2. Train the Model:
-   - Ensure you have a dataset of images for each user in the images directory.
-   - Run the train_faces.py script to train the model:
+2. Import the project into your favorite IDE.
+3. Create a Python environment:
+   bash
+   python -m venv env
+   
+4. Activate the environment:
+   - On Windows:
      bash
-     python train_faces.py
+     .\env\Scripts\activate
      
-
-3. Start Face Recognition:
-   - To start recognizing faces from the webcam, run:
+   - On macOS/Linux:
      bash
-     python face_recognition.py
+     source env/bin/activate
      
+5. Install all the required packages:
+   bash
+   pip install opencv-contrib-python
+   pip install numpy
+   pip install pandas
+   pip install Pillow
+   pip install pytest-shutil
+   pip install python-csv
+   pip install yagmail
+   
 
-4. Enable Email Notifications (optional):
-   - Configure your email settings in auto_email_sender.py.
-   - The system will send email notifications once attendance is marked.
+6. Change the email information as needed in auto_email_sender.py.
+
+7. Run the project using the command line or your IDE's Run button:
+   bash
+   python main.py
 
 ---> Future Enhancements :
 - Integrating with a cloud-based database for storing attendance logs.
