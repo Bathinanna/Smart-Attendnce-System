@@ -1,0 +1,8 @@
+opencv-contrib-python
+numpy
+pandas
+Pillow
+pytest-shutil
+python-csv
+yagmail
+gunicorn
